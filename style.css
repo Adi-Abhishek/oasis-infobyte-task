@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.main{
+    width: 100;
+}
+nav{
+    width: 100;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.logo a{
+    font-size: 40px;
+    color:aquamarine;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 40px;
+}
+ul li{
+    float: left;
+    padding: 0px 16px;
+    list-style: none;
+}
+ul li a:hover{
+    color: yellowgreen;
+
+}
+.header{
+    background-image: url("food.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+    text-align: center;
+}
+.container h1{
+    font-size: 46px;
+}
+.container p{
+    padding: 0px 60px;
+    font-size: 20px;
+}
+button{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 26px;
+    border-radius: 8px;
+    transition: 0.2s all ease;
+}
+button:hover{
+    background: black;
+    color: pink;
+}
+.overlay{
+    background: rgba(0, 0, 0, .4);
+    height: 100vh;
+}
+footer{
+    background-color: rgb(80, 5, 5);
+    color: #fff;
+}
+.footer_info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+}
+.footer-info .footer_width {
+    padding: 0 15px;
+}
+.footer-info h2 {
+    margin-bottom: 20px;
+}
+.about , .contact {
+    width: 40%;
+}
+.link {
+    width: 30%;
+}
+ 
+.link ul li a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.link ul li a:hover{
+    color: #000;
+}
+.contact ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact ul li span{
+    margin-right: 15px;
+}
